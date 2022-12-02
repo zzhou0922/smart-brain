@@ -1,70 +1,49 @@
-# Getting Started with Create React App
+# Smart Brain Project - Face Detection from Images
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+>This project was a face detection tool based on images. You can simply register and enjoy it for free!
+>
+>This project was also a journey for me to understand the concept of the front-end, back-end, and database. Moreover, practice linking all three together and deploying them online through Heroku and Github.
 
-## Available Scripts
 
-In the project directory, you can run:
 
-### `npm start`
+## Front End
+In the front end part, we created the project based on React library. 
+```
+We have register, sign in, sign out options for users. 
+Users can use an image URL to enjoy the face detection experiment.
+The app also accumulate the image entries and showed it to the user. 
+```
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
 
-### `npm test`
+### `Pure Function vs Smart Function`
+Through the coding process along with the tutorial, I realized that there are smart functions (smart components), and pure functions (pure components). 
+```
+From my understanding:
+  Smart functions come with 'state' and prefer to use class syntax for coding.  
+  Pure functions only accept props and prefer to use function syntax for coding.
+```
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### `React One Way Data Flow`
+```
+Data flows down one way.
+Everything flows from state to props.
+State can only exist in a container component.
+```
 
-### `npm run build`
+### `We can use JSX in React`
+We can use JSX in React in order to modify HTML like content. 
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Back End - Server
+```
+The server is built based on Express, which is a Node.js framework.
+I also clear the concept about READful through the project.
+The server is hosting on Heroku. 
+```
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## Back End - Database
+```
+I built a simple database by using PostgreSQL for users account storage. 
+The server is hosting on Heroku.
+```
