@@ -3,6 +3,7 @@
 >This project was a face detection tool based on images. You can simply register and enjoy it for free!
 >
 >This project was also a journey for me to understand the concept of the front-end, back-end, and database. Moreover, practice linking all three together and deploying them online through Heroku and Github.
+> This website also host on https://smart-brain-by-zebin.herokuapp.com/
 
 
 
